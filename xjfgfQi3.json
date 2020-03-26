@@ -779,6 +779,45 @@
     },
     {
       "background": "white",
+      "hidden": false,
+      "id": "d8ba651b-f2b9-4e9b-9b91-974dcb11e08b",
+      "layoutType": "linear_list",
+      "name": "Инфо",
+      "shortcuts": [
+        {
+          "acceptAllCertificates": false,
+          "authToken": "",
+          "authentication": "none",
+          "bodyContent": "",
+          "codeOnFailure": "",
+          "codeOnPrepare": "",
+          "codeOnSuccess": "var ver \u003d getVariable(/*[variable]*/\"ff8b8482-dd6d-4563-8cd5-b26c2c7b5ea3\"/*[/variable]*/)\nvar text \u003d \"Версия\\:\" + \" \" + ver;\nshowDialog(text, \"О скрипте\");",
+          "contentType": "text/plain",
+          "delay": 0,
+          "description": "",
+          "executionType": "app",
+          "feedback": "none",
+          "followRedirects": true,
+          "headers": [],
+          "iconName": "freepik_gear",
+          "id": "0291eb88-4063-4763-84a6-87bf958b9bcf",
+          "launcherShortcut": false,
+          "method": "GET",
+          "name": "О скрипте",
+          "parameters": [],
+          "password": "",
+          "quickSettingsTileShortcut": false,
+          "requestBodyType": "x_www_form_urlencode",
+          "requireConfirmation": false,
+          "retryPolicy": "none",
+          "timeout": 10000,
+          "url": "{{0e31315e-668c-4975-b73f-0a798258138a}}",
+          "username": ""
+        }
+      ]
+    },
+    {
+      "background": "white",
       "hidden": true,
       "id": "7cba737a-a1b2-4873-bb32-e53a226bbf91",
       "layoutType": "linear_list",
@@ -2551,7 +2590,7 @@
       "title": "Логин",
       "type": "number",
       "urlEncode": true,
-      "value": "0000000000"
+      "value": ""
     },
     {
       "flags": 0,
@@ -2563,7 +2602,7 @@
       "title": "Пароль",
       "type": "password",
       "urlEncode": true,
-      "value": "000000000"
+      "value": ""
     },
     {
       "flags": 0,
@@ -2575,7 +2614,7 @@
       "title": "",
       "type": "constant",
       "urlEncode": false,
-      "value": "241052B09309D1648CA3B14DDA35ED9D"
+      "value": "undefined"
     },
     {
       "flags": 0,
@@ -2587,7 +2626,7 @@
       "title": "",
       "type": "constant",
       "urlEncode": true,
-      "value": "0000000000"
+      "value": ""
     },
     {
       "flags": 0,
@@ -4282,7 +4321,7 @@
       "title": "",
       "type": "constant",
       "urlEncode": false,
-      "value": "0000000000"
+      "value": ""
     },
     {
       "flags": 0,
@@ -4294,7 +4333,7 @@
       "title": "",
       "type": "constant",
       "urlEncode": false,
-      "value": "000000000"
+      "value": ""
     },
     {
       "flags": 0,
@@ -4570,7 +4609,7 @@
       "title": "",
       "type": "constant",
       "urlEncode": false,
-      "value": "1.1"
+      "value": "1.1.1"
     },
     {
       "flags": 0,
