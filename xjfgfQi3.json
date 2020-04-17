@@ -957,6 +957,14 @@
     {
       "background": "white",
       "hidden": true,
+      "id": "7bcdd9b1-81cb-4447-855d-aa4609e3f6a4",
+      "layoutType": "linear_list",
+      "name": "⁣",
+      "shortcuts": []
+    },
+    {
+      "background": "white",
+      "hidden": true,
       "id": "7cba737a-a1b2-4873-bb32-e53a226bbf91",
       "layoutType": "linear_list",
       "name": "⁣",
@@ -997,7 +1005,7 @@
           "authentication": "none",
           "bodyContent": "{\"featureParameters\":[]}",
           "codeOnFailure": "",
-          "codeOnPrepare": "triggerShortcut(getVariable(/*[variable]*/\"8b04aab4-68d2-458a-a99e-9e3c8bd2492f\"/*[/variable]*/));",
+          "codeOnPrepare": "triggerShortcut(getVariable(/*[variable]*/\"8b04aab4-68d2-458a-a99e-9e3c8bd2492f\"/*[/variable]*/));\nshowToast(Токен устарел, идёт обновление токена);",
           "codeOnSuccess": "const token \u003d JSON.parse(response.body).token; setVariable(/*[variable]*/\"169a248a-5d4c-4e49-b029-ed2c78c42246\"/*[/variable]*/, token);\ntriggerShortcut(getVariable(/*[variable]*/\"d8097acd-8ba1-4320-9f17-3ada4d813041\"/*[/variable]*/));\n\n",
           "contentType": "application/json",
           "delay": 0,
